@@ -27,12 +27,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["ec2-18-208-147-63.compute-1.amazonaws.com"]
 
-# CORS_ALLOWED_ORIGINS = [
-#     "http://localhost:5173",
-#     # AWS S3 origin here
-# ]
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    "http://roulettech-garrison-bates.s3-website-us-east-1.amazonaws.com",
+]
 
-CORS_ALLOW_ALL_ORIGINS = True
+# CORS_ALLOW_ALL_ORIGINS = True
 
 
 # Application definition
